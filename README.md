@@ -10,4 +10,4 @@ In this [paper](https://www.researchgate.net/publication/379714148_PDF_Temporal_
 
 ### Architecture
 
-![](Figure/architecture.png)
+![](Figure/FM.png)
