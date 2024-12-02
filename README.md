@@ -1,8 +1,10 @@
 # Temporal-Relations-of-Informative-Frames-in-Action-Recognition
 
-In this paper, to detect actions we have 3 steps; at the first step we use a frame selection algorithm to avoid the redundancy of videos which is explained in this paper [Adaptive Frame Selection In Two Dimensional Convolutional Neural Network Action Recognition](https://www.researchgate.net/publication/368726751_Adaptive_Frame_Selection_In_Two_Dimensional_Convolutional_Neural_Network_Action_Recognition) and code can be found here([Code](https://github.com/Alirezarahnamaa/Adaptive-Frame-Selection-Algorithm))
+In this [paper](https://www.researchgate.net/publication/379714148_PDF_Temporal_Relations_of_Informative_Frames_in_Action_Recognition), to detect actions we have 3 steps; at the first step we use a frame selection algorithm to avoid the redundancy of videos which is explained in this paper [Adaptive Frame Selection In Two Dimensional Convolutional Neural Network Action Recognition](https://www.researchgate.net/publication/368726751_Adaptive_Frame_Selection_In_Two_Dimensional_Convolutional_Neural_Network_Action_Recognition) and code can be found here([Code](https://github.com/Alirezarahnamaa/Adaptive-Frame-Selection-Algorithm))
 
-at first we use a frame selection algorithm [Temporal Relations of Informative Frames in Action Recognition](https://www.researchgate.net/publication/379714148_PDF_Temporal_Relations_of_Informative_Frames_in_Action_Recognition)
+In the next stage, we use this repository([Feature extraction](https://github.com/Alirezarahnamaa/Feature_Extraction)) to extract the spatial features from each selected frame by pre-trained ResNet-50 to have one spatial feature vector for each selected frame.
+
+In this repository, we use a temporal pooling method to divide each video into 4 parts and have strong and powerful spatial-temporal feature vectors for each video. Moreover, using LOOCV helps to have reasonable results because we evaluate and train all videos of UCF11.
 
 ### Architecture
 
